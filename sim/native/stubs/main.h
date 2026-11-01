@@ -1,0 +1,16 @@
+#ifndef SIM_MAIN_H
+#define SIM_MAIN_H
+#define MOTOR1_DIR 10
+#define MOTOR2_DIR 11
+#define MOTOR3_DIR 12
+#define MOTOR4_DIR 13
+#define MOTOR1_PWM 0
+#define MOTOR2_PWM 1
+#define MOTOR3_PWM 2
+#define MOTOR4_PWM 3
+#define MOTOR1_FORWARD_DIR_LEVEL 0
+#define MOTOR2_FORWARD_DIR_LEVEL 0
+#define MOTOR3_FORWARD_DIR_LEVEL 0
+#define MOTOR4_FORWARD_DIR_LEVEL 0
+#define PWM_DUTY_MAX 10000
+#endif

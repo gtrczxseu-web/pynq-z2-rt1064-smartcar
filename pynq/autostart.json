@@ -1,0 +1,16 @@
+{
+  "grid_size_m": 0.2,
+  "camera": true,
+  "startup_delay_s": 5,
+  "segment_seconds": 60,
+  "calibration_seconds": 3,
+  "minimum_free_mb": 256,
+  "stationary_limits": {
+    "expected_bias_lsb": -5,
+    "max_bias_deviation_lsb": 15,
+    "max_gyro_spread_lsb": 8,
+    "max_encoder_span": 2,
+    "min_samples": 25
+  },
+  "motion_route": "two_laps_10grid_step_pause"
+}

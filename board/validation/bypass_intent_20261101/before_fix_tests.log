@@ -1,0 +1,64 @@
+test_bypass_can_finish_at_pause_or_done_without_an_intermediate_move_status (test_bypass.BypassTests.test_bypass_can_finish_at_pause_or_done_without_an_intermediate_move_status) ... ok
+test_bypass_motion_time_is_not_counted_as_traffic_wait_or_extra_route_steps (test_bypass.BypassTests.test_bypass_motion_time_is_not_counted_as_traffic_wait_or_extra_route_steps) ... ok
+test_bypass_retry_is_identical_and_keeps_original_route_and_step (test_bypass.BypassTests.test_bypass_retry_is_identical_and_keeps_original_route_and_step) ... ok
+test_confirmed_intent_cannot_cross_motion_step (test_bypass.BypassTests.test_confirmed_intent_cannot_cross_motion_step) ... FAIL
+test_confirmed_intent_cannot_cross_pose_epoch (test_bypass.BypassTests.test_confirmed_intent_cannot_cross_pose_epoch) ... FAIL
+test_confirmed_intent_survives_unknown_and_frame_gap_while_stopping (test_bypass.BypassTests.test_confirmed_intent_survives_unknown_and_frame_gap_while_stopping) ... FAIL
+test_confirmed_obstacle_clearing_during_braking_still_starts_bypass (test_bypass.BypassTests.test_confirmed_obstacle_clearing_during_braking_still_starts_bypass) ... FAIL
+test_forward_obstacle_pauses_without_nested_bypass_and_green_resumes_it (test_bypass.BypassTests.test_forward_obstacle_pauses_without_nested_bypass_and_green_resumes_it) ... ok
+test_lateral_phases_disable_detection_and_operator_stop_never_restarts (test_bypass.BypassTests.test_lateral_phases_disable_detection_and_operator_stop_never_restarts) ... ok
+test_red_after_native_acceptance_resumes_the_held_bypass_phase (test_bypass.BypassTests.test_red_after_native_acceptance_resumes_the_held_bypass_phase) ... ok
+test_red_delays_committed_bypass_and_green_does_not_release_straight_ahead (test_bypass.BypassTests.test_red_delays_committed_bypass_and_green_does_not_release_straight_ahead) ... FAIL
+test_red_preempts_unacknowledged_bypass_and_restores_original_hold_if_not_accepted (test_bypass.BypassTests.test_red_preempts_unacknowledged_bypass_and_restores_original_hold_if_not_accepted) ... ok
+test_short_remaining_distance_stays_held_without_retry_loop (test_bypass.BypassTests.test_short_remaining_distance_stays_held_without_retry_loop) ... ok
+test_stop_before_hold_ack_discards_intent_and_green_cannot_restart (test_bypass.BypassTests.test_stop_before_hold_ack_discards_intent_and_green_cannot_restart) ... ok
+test_stopped_or_unknown_or_stale_frames_cannot_start_a_bypass (test_bypass.BypassTests.test_stopped_or_unknown_or_stale_frames_cannot_start_a_bypass) ... ok
+test_v7_keeps_existing_obstacle_stop_without_sending_new_opcode (test_bypass.BypassTests.test_v7_keeps_existing_obstacle_stop_without_sending_new_opcode) ... ok
+test_v8_status_and_held_phase_are_decoded_without_hiding_real_faults (test_bypass.BypassTests.test_v8_status_and_held_phase_are_decoded_without_hiding_real_faults) ... ok
+
+======================================================================
+FAIL: test_confirmed_intent_cannot_cross_motion_step (test_bypass.BypassTests.test_confirmed_intent_cannot_cross_motion_step)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\codex\FPGA竞赛\motion_v7_4_no_pose_gate\verification\test_bypass.py", line 62, in test_confirmed_intent_cannot_cross_motion_step
+    self.assertFalse(any(p[3]==7 for p in self.writer.packets))
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_confirmed_intent_cannot_cross_pose_epoch (test_bypass.BypassTests.test_confirmed_intent_cannot_cross_pose_epoch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\codex\FPGA竞赛\motion_v7_4_no_pose_gate\verification\test_bypass.py", line 58, in test_confirmed_intent_cannot_cross_pose_epoch
+    self.assertFalse(any(p[3]==7 for p in self.writer.packets))
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_confirmed_intent_survives_unknown_and_frame_gap_while_stopping (test_bypass.BypassTests.test_confirmed_intent_survives_unknown_and_frame_gap_while_stopping)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\codex\FPGA竞赛\motion_v7_4_no_pose_gate\verification\test_bypass.py", line 54, in test_confirmed_intent_survives_unknown_and_frame_gap_while_stopping
+    self.assertEqual(self.writer.packets[-1][3],7)
+AssertionError: 3 != 7
+
+======================================================================
+FAIL: test_confirmed_obstacle_clearing_during_braking_still_starts_bypass (test_bypass.BypassTests.test_confirmed_obstacle_clearing_during_braking_still_starts_bypass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\codex\FPGA竞赛\motion_v7_4_no_pose_gate\verification\test_bypass.py", line 49, in test_confirmed_obstacle_clearing_during_braking_still_starts_bypass
+    self.fresh(11);self.m.step();self.assertEqual(self.writer.packets[-1][3],7)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 3 != 7
+
+======================================================================
+FAIL: test_red_delays_committed_bypass_and_green_does_not_release_straight_ahead (test_bypass.BypassTests.test_red_delays_committed_bypass_and_green_does_not_release_straight_ahead)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\codex\FPGA竞赛\motion_v7_4_no_pose_gate\verification\test_bypass.py", line 71, in test_red_delays_committed_bypass_and_green_does_not_release_straight_ahead
+    self.green();self.green();self.assertEqual(self.writer.packets[-1][3],7)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 6 != 7
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.054s
+
+FAILED (failures=5)

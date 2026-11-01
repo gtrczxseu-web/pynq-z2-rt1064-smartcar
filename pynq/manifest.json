@@ -1,0 +1,342 @@
+{
+  "release": "motion-v7.4-step-pause-20261025",
+  "hardware_tested": false,
+  "software_release_board_tested": false,
+  "motor_hardware_tested": false,
+  "hardware_pair_unchanged_from_verified_release": false,
+  "confirmed_grid_size_m": 0.2,
+  "upload_files": {
+    "autostart.json": {
+      "bytes": 382,
+      "sha256": "c707cea82112e8e746805f11f05160f12187f0c07e4b9ad8ceb5dc143bb0ed67"
+    },
+    "boot_controls.py": {
+      "bytes": 2594,
+      "sha256": "c18cf9187fb3ad2f3b0f25a42340ee6665bdd3a44b49362b854e3654fa765a04"
+    },
+    "boot_display.py": {
+      "bytes": 10229,
+      "sha256": "c2da5c0df7129e6dfc4fb88813772bda2e1e1fdfe006c33fa8dcc17419e90fea"
+    },
+    "camera_calibration.json": {
+      "bytes": 937,
+      "sha256": "93f7a57ce019ae7ba5f432a3c3dc73621c931c165e5411974072b272e6b7562c"
+    },
+    "camera_guard.py": {
+      "bytes": 8212,
+      "sha256": "bb55af0a4295bba7920d3faf94349a6dc46d00aa4f212b101f54a9e58bb243b3"
+    },
+    "camera_preview.py": {
+      "bytes": 625,
+      "sha256": "871c46ed5fd04f803daf2999ff497a447f7687f4ae8edf4217377dcc2516d9e7"
+    },
+    "camera_quality.py": {
+      "bytes": 5005,
+      "sha256": "91983202c865b49429827807f0437c2102e2345aece79df04ae65f63274943c9"
+    },
+    "camera_worker.py": {
+      "bytes": 3454,
+      "sha256": "e183e09e385a44842764c1ab92e84ce4dd8e7b006910f92ef3f9cb8865752318"
+    },
+    "demo_session.py": {
+      "bytes": 11217,
+      "sha256": "353de90aefc47f7bd360ca281f0516e5d9cccbf352da3f667dc42ffaa75e0d1c"
+    },
+    "hud_live.bit": {
+      "bytes": 4045672,
+      "sha256": "6dcfff30724181d06af6ee174950884c57b2312913573cb14829ac67f61b46ab"
+    },
+    "hud_live.hwh": {
+      "bytes": 4177683,
+      "sha256": "089fa71a1c615b5fc6d482fdc1baf20fd075be6747b276d36732c233e6e87851"
+    },
+    "install_service.py": {
+      "bytes": 2568,
+      "sha256": "2a7bb1bab465b890ca38ca0780ce301e3429dc7a439228bdf79850dd86f4d7f6"
+    },
+    "libuart_receiver_rt.so": {
+      "bytes": 12456,
+      "sha256": "ff8a6c65e877f799b3f163f54192726360c7e17676c78ed6ac57ef77e5498d2b"
+    },
+    "libuart_tx_v1.so": {
+      "bytes": 6984,
+      "sha256": "6d14a26868d836150b5f74a3e9599a8f3ac6f4e60883aaab84982aa861207bee"
+    },
+    "live_board.py": {
+      "bytes": 27884,
+      "sha256": "2f9ff38e030d597915a5d5a7b740d482fc0fcdb3eacf6873b62afb817c2e60ee"
+    },
+    "live_hud.py": {
+      "bytes": 5820,
+      "sha256": "885b86cc46f51090ef18aa8cef9aa1b77f3d8768c5dfc39a352319299c32ca6d"
+    },
+    "motion_link.py": {
+      "bytes": 32081,
+      "sha256": "058f7d92b04c9027423b6bb3c5c527f07e4b3ee9756e877d20866aa04da9f8c8"
+    },
+    "openart_usb.py": {
+      "bytes": 9704,
+      "sha256": "30f0c351cb6f101c3446e1c493db6385d9f0c54b7eb57c045912eaf8041b838b"
+    },
+    "openart_usb_fast.py": {
+      "bytes": 3418,
+      "sha256": "629843dd645d41a594aa5c88e0dff3e3dd1154408d6d1e64540b4cf1a6c9db36"
+    },
+    "pl_camera_test.py": {
+      "bytes": 6230,
+      "sha256": "ca94c3b62c2c773c06eac770ff61dfaa011dee7c0b370d4162c51b8e16fd75a5"
+    },
+    "pynq-sensor-autostart.service": {
+      "bytes": 847,
+      "sha256": "7aac9f499574d0b2fd3bd46b78ecae8ef1e7ab946a89b4f326cc87e2fb3434d6"
+    },
+    "raw_decoder.py": {
+      "bytes": 4895,
+      "sha256": "ed530d8a21b80ead466ca27841d90fdce14b3c78f9e6e957152880e35347faec"
+    },
+    "sample_alignment.py": {
+      "bytes": 4573,
+      "sha256": "dabdb276450859516cf3fb7da62199ad08a666e60c1fb6e47926925fa5746477"
+    },
+    "sensing_app.py": {
+      "bytes": 13993,
+      "sha256": "0f3e30cf2314e7c8e544015bd2a9cfaf6830756dd1897910200867fc3bf88a1b"
+    },
+    "sensor_driver.py": {
+      "bytes": 5435,
+      "sha256": "7650d3187a195b414787c23a9adf4889633f9d12edefbbc15074bf75b6ab172f"
+    },
+    "sensor_fusion.py": {
+      "bytes": 1504,
+      "sha256": "847e17978974c48a772595bd8c78449421be14d3166b45ff1747f15e216fc46f"
+    },
+    "standalone.py": {
+      "bytes": 10404,
+      "sha256": "a33cd87dc42028ba4bfbaf1dfa7a37e9117a354adaad592d096c751698adf37f"
+    },
+    "state_dashboard.py": {
+      "bytes": 10738,
+      "sha256": "d587a3e7cec80ae1985547c57b78735ecd5e956df5bae5b2150936837f55cf10"
+    },
+    "stationary_guard.py": {
+      "bytes": 1974,
+      "sha256": "65c8dff0e773d3a3f5651499ee88194a52d6670711ce1e1c528ef3db90d4eef5"
+    },
+    "telemetry_reference.py": {
+      "bytes": 2990,
+      "sha256": "b15cbd8aa68832cefd5d82d9afc2579618742030d1e17161c7689d5a9e00a15a"
+    },
+    "uart_capture.c": {
+      "bytes": 5446,
+      "sha256": "b2a807d3dfc3e20caa3b00974b85a859c3b534219a0c988eaa81d050cf0f84fc"
+    },
+    "uart_native.py": {
+      "bytes": 2808,
+      "sha256": "00931c56f29f175ac6f38b2486d40d0d5efcd0929bd0a3c2c96109a7cb61641d"
+    },
+    "uart_tx_native.c": {
+      "bytes": 1010,
+      "sha256": "cc056c9270a5440083ba79dedcd35147d9a56c188ae224fd1636c6a36808d42f"
+    },
+    "uart_tx_native.py": {
+      "bytes": 1623,
+      "sha256": "9839ab9b4fe890e32a80ddd70e85772a413a39b3af3d82e11d57c72f7baba63d"
+    },
+    "usb_cdc_only_test.py": {
+      "bytes": 8352,
+      "sha256": "4c78b40b10a18bece4a26328a485de423035e6e0b5c7514f15b65edb636de46f"
+    },
+    "vehicle_telemetry.py": {
+      "bytes": 10789,
+      "sha256": "8c7420cf86d1595bf4285cd0a28e67e5a135fdde3912addb4ccb24661cd6603e"
+    },
+    "video_renderer.py": {
+      "bytes": 1647,
+      "sha256": "ee9c01e078c96cc26af0ac0a42b22f2a865cbe88ebee344764af88d54d5fb5be"
+    },
+    "trajectory_report.py": {
+      "bytes": 34647,
+      "sha256": "653939477361bfc989af9a54019406c30dac5b90f8dfcc30b26117654fd32922"
+    },
+    "route_settings.py": {
+      "bytes": 5085,
+      "sha256": "2004e2881cb61383ad0065ebc78c4e08e6ae3ebede24e85069cbf5403d4e40bf"
+    },
+    "rear_projection.py": {
+      "bytes": 9145,
+      "sha256": "b377b0385f7babb2a4cbe92b387b679e9c15a96ae5e33c31ccbf21e5e6e7f615"
+    },
+    "control_panel.py": {
+      "bytes": 2826,
+      "sha256": "772af77b5d458435fcb1eef86de036b1cad8bb994567945619ae3e2be9148d5a"
+    },
+    "01_route_camera_controls.ipynb": {
+      "bytes": 718,
+      "sha256": "45fa1aad46fadb1fceb61df65cffb382385f61b424d81ea84cccd6bf44ad05b1"
+    },
+    "settings_menu.py": {
+      "bytes": 3866,
+      "sha256": "3fee73d9a111612e18bdb6f65c8375d193ba5f88693add6292373c56e4ce983c"
+    },
+    "light_vision.py": {
+      "bytes": 15023,
+      "sha256": "dc38e2ccb4b74930c96a737f07baf3563acbf9e3d5825f1d2b3c49d27accef62"
+    },
+    "models/license_mit.txt": {
+      "bytes": 1249,
+      "sha256": "baa52bddc991f8714462e5c71f0332eb85ca683405f94122a7ed6d628de6c9c8"
+    },
+    "models/mnist-8.onnx": {
+      "bytes": 26454,
+      "sha256": "2f06e72de813a8635c9bc0397ac447a601bdbfa7df4bebc278723b958831c9bf"
+    },
+    "models/model_source.md": {
+      "bytes": 2471,
+      "sha256": "150e0da515cc650f482af5bb540e0af359eddf1b18dfaa65748790748d3336f8"
+    },
+    "vision_signals.py": {
+      "bytes": 1392,
+      "sha256": "f71ff0b04c00cdf90ad6a25171e349d696d74ca21c18846ddc5d2d034a16dfc6"
+    },
+    "visual_obstacle.py": {
+      "bytes": 10326,
+      "sha256": "e617a86a70ef50bbf71534f6ab93c5e4d3a834bb404e4cbeec9476c45a7b2681"
+    }
+  },
+  "mutable_files": [
+    "00_manage_autostart.ipynb",
+    "route_settings.json",
+    "rear_camera.json"
+  ],
+  "extensions": [
+    "state display",
+    "camera recovery",
+    "turn markers",
+    "route recipes V3",
+    "explicit-start continuous mode",
+    "rear ground projection",
+    "V5 speed 20..200 percent",
+    "ARM pretrained digit/color overlay",
+    "V6 traffic hold/resume and one-shot digit speed",
+    "camera planned current action",
+    "batched long-route rendering",
+    "mode-gated independent color and digit workers",
+    "distance menu 4.0m wraps to 2.0m",
+    "STEP single TRANSLATE 2..4m and ROTATE 90/180/360/720deg; V7 angular speed 20..200%",
+    "OpenCV color masks and central large-card exception; continuous gap 0.35s; rotation acceleration ramp; measured action and traffic response report",
+    "camera-only forward obstacle hold demo; clear plus BTN0 or fresh GREEN resumes same action",
+    "V8 right-side rectangular bypass; camera forward retained; sides assumed clear; original step target preserved",
+    "Bounded side-floor exposure compensation after bypass translation; central obstacle checks retained",
+    "Measured 50cm ground-contact boundary and conservative reflection-tail filter; fixed camera/flat floor",
+    "Confirmed obstacle bypass survives CLEAR/UNKNOWN during braking; RED and STOP retain priority"
+  ],
+  "vision_control_protocol": 6,
+  "single_actions": {
+    "mode": "step",
+    "routes": [
+      "translate",
+      "rotate"
+    ],
+    "distance_m": [
+      2,
+      4
+    ],
+    "distance_increment_m": 0.2,
+    "clockwise_angles": [
+      90,
+      180,
+      360,
+      720
+    ],
+    "speed_percent": [
+      20,
+      200
+    ],
+    "speed_increment_percent": 20,
+    "rotate_mcu_protocol_min": 7
+  },
+  "offline_refinement": {
+    "continuous_gap_s": 0.35,
+    "color_central_max_area_fraction": 0.45,
+    "turn_acceleration_pulses_per_tick": 8,
+    "turn_tick_ms": 20,
+    "requires_updated_mcu_for_turn_ramp": true,
+    "board_tested": false
+  },
+  "visual_obstacle": {
+    "scope": "camera-forward contrast obstacles on flat floor; demonstration",
+    "processing_size": [
+      160,
+      120
+    ],
+    "maximum_processing_hz": 5,
+    "blocked_frames": 2,
+    "clear_frames": 3,
+    "resume": "BTN0 or fresh GREEN after clear",
+    "metric_range": false,
+    "mcu_reflash_required": false,
+    "board_tested": false,
+    "stationary_reference_refresh": true,
+    "minimum_contour_area_px": 30,
+    "minimum_floor_depth_px": 7,
+    "morphology": "close_then_open",
+    "geometry_cached": true,
+    "color_distance": "squared_float32",
+    "floor_reference": "near_far_rows",
+    "bounded_exposure_compensation": {
+      "lab_limit": [
+        40,
+        8,
+        8
+      ],
+      "source": "side-floor near/far medians; central lane excluded",
+      "reference_frozen_in_motion": true,
+      "captured_side_floor_regressions": 5,
+      "arithmetic": "float32"
+    },
+    "spatial_learning_consistency": true,
+    "near_range": {
+      "approximate_max_m": 0.5,
+      "calibration": "User-measured 50cm cup, fixed camera, flat floor",
+      "boundary_y": 0.7489539748953975,
+      "image_size": [
+        320,
+        240
+      ],
+      "ground_contact_row": 179,
+      "only_contact_inside_near_corridor": true,
+      "full_metric_depth_calibrated": false,
+      "boundary_marker_always_visible": true
+    },
+    "reflection_filter": {
+      "method": "dominant body-to-ground contrast exit edge; dim reflection tail excluded",
+      "synthetic_reflection_regression": true,
+      "measured_50cm_frames": 8,
+      "measured_1m_frames": 8
+    },
+    "stationary_learning_chroma_spread_max": 13
+  },
+  "obstacle_bypass": {
+    "protocol_min": 8,
+    "side_m": 0.5,
+    "forward_m": 1.0,
+    "minimum_remaining_m": 1.0,
+    "side_obstacle_checks": false,
+    "forward_obstacle_checks": true,
+    "speed_limit_pulses_20ms": 40,
+    "original_goal_restored": true,
+    "mcu_reflash_required": true,
+    "firmware_sha256": "56ad2df2484af36f81cb3d40f31f408bdfcac327df038c08ec43e645f5bf02dd",
+    "vehicle_tested": false,
+    "completed_step_boundary_handled": true,
+    "confirmed_intent_latched_through_braking": true,
+    "latched_intent_context": "session/step/pose_epoch/source_clock_epoch; STOP clears"
+  },
+  "distribution": {
+    "contents": "final runtime plus separate contest verification/report materials",
+    "tests_included": true,
+    "reports_included": true,
+    "source_full_release_manifest_sha256": "e6ce39d683bf13402295bf3298508e889c8dd72d13653267e14333c1b54d3851",
+    "note": "Runtime manifest covers only runtime files; repository verification/report files are separate."
+  }
+}

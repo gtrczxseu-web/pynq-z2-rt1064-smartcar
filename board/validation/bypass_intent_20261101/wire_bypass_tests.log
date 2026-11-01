@@ -1,0 +1,13 @@
+test_camera_forward_bypass_goes_to_camera_right_and_credits_forward_progress (__main__.WireBypassTests.test_camera_forward_bypass_goes_to_camera_right_and_credits_forward_progress) ... ok
+test_confirmed_obstacle_clears_during_braking_but_detour_still_finishes_original_step (__main__.WireBypassTests.test_confirmed_obstacle_clears_during_braking_but_detour_still_finishes_original_step) ... ok
+test_continuous_route_recovers_from_dropped_packets_and_red_mid_bypass (__main__.WireBypassTests.test_continuous_route_recovers_from_dropped_packets_and_red_mid_bypass) ... ok
+test_countdown_red_pause_does_not_try_bypass_before_move_target_exists (__main__.WireBypassTests.test_countdown_red_pause_does_not_try_bypass_before_move_target_exists) ... ok
+test_forward_obstacle_during_bypass_requires_clear_and_green_without_nested_route (__main__.WireBypassTests.test_forward_obstacle_during_bypass_requires_clear_and_green_without_nested_route) ... ok
+test_hold_at_completed_step_rejects_bypass_then_recovers_normal_next_step (__main__.WireBypassTests.test_hold_at_completed_step_rejects_bypass_then_recovers_normal_next_step) ... ok
+test_operator_stop_in_each_bypass_phase_never_restarts_from_green (__main__.WireBypassTests.test_operator_stop_in_each_bypass_phase_never_restarts_from_green) ... ok
+test_short_remaining_leg_waits_for_clear_then_continues_original_goal (__main__.WireBypassTests.test_short_remaining_leg_waits_for_clear_then_continues_original_goal) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.187s
+
+OK

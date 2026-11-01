@@ -1,0 +1,11 @@
+{
+  "application": 0,
+  "wire_bypass": 0,
+  "legacy_v7_wire": 0,
+  "application_count": 292,
+  "wire_bypass_count": 8,
+  "legacy_v7_wire_count": 11,
+  "native_bridge_sha256": "a842e789f9b4073261f8e6f046cf9a359a579442e377d186ebd0f6eafbe4e3c2",
+  "package": 0,
+  "deployment": 0
+}

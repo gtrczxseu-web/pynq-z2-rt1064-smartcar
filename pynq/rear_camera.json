@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "enabled": true,
+  "mode": "approximate",
+  "height_m": 0.15,
+  "pitch_down_deg": 10,
+  "horizontal_fov_deg": 70,
+  "camera_right_m": 0,
+  "camera_forward_m": -0.15,
+  "mirror": false,
+  "ground_polygon": [
+    [
+      0,
+      0.67
+    ],
+    [
+      1,
+      0.67
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "homography": null,
+  "ground_selection": "Assistant verified actual camera frame; conservative boundary at row 160 of 240",
+  "ground_region_verified": true
+}

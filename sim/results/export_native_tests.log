@@ -1,0 +1,122 @@
+In file included from F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\route_board.c:5:0:
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:23:13: warning: 'rotate_ccw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_ccw_90(void);
+             ^~~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:24:13: warning: 'rotate_cw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_cw_90(void);
+             ^~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:25:13: warning: 'rotate_180' declared 'static' but never defined [-Wunused-function]
+ static void rotate_180(void);
+             ^~~~~~~~~~
+In file included from F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\position.c:4:0:
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:23:13: warning: 'rotate_ccw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_ccw_90(void);
+             ^~~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:24:13: warning: 'rotate_cw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_cw_90(void);
+             ^~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:25:13: warning: 'rotate_180' declared 'static' but never defined [-Wunused-function]
+ static void rotate_180(void);
+             ^~~~~~~~~~
+ADAPTER_TWO_LAP_OK: ideal model ends x=0.0137 y=-0.0177 grid, all 12 actions observed
+ADAPTER_BASIC_MOTION_OK: manual STOP and finish are OFF; lease loss/RX overflow do not abort
+In file included from F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\route_board.c:5:0:
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:23:13: warning: 'rotate_ccw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_ccw_90(void);
+             ^~~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:24:13: warning: 'rotate_cw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_cw_90(void);
+             ^~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:25:13: warning: 'rotate_180' declared 'static' but never defined [-Wunused-function]
+ static void rotate_180(void);
+             ^~~~~~~~~~
+In file included from F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\position.c:4:0:
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:23:13: warning: 'rotate_ccw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_ccw_90(void);
+             ^~~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:24:13: warning: 'rotate_cw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_cw_90(void);
+             ^~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:25:13: warning: 'rotate_180' declared 'static' but never defined [-Wunused-function]
+ static void rotate_180(void);
+             ^~~~~~~~~~
+ADAPTER_CONFIGURED_RECIPE_OK: actual position/control code, 2-grid move, -45deg turn, 1-grid lateral move, reduced speed
+In file included from F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\route_board.c:5:0:
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:23:13: warning: 'rotate_ccw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_ccw_90(void);
+             ^~~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:24:13: warning: 'rotate_cw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_cw_90(void);
+             ^~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:25:13: warning: 'rotate_180' declared 'static' but never defined [-Wunused-function]
+ static void rotate_180(void);
+             ^~~~~~~~~~
+In file included from F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\position.c:4:0:
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:23:13: warning: 'rotate_ccw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_ccw_90(void);
+             ^~~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:24:13: warning: 'rotate_cw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_cw_90(void);
+             ^~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:25:13: warning: 'rotate_180' declared 'static' but never defined [-Wunused-function]
+ static void rotate_180(void);
+             ^~~~~~~~~~
+ADAPTER_FULL_TWO_TURNS_OK: measured ideal-model clockwise rotation 719.63 degrees
+In file included from F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\route_board.c:5:0:
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:23:13: warning: 'rotate_ccw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_ccw_90(void);
+             ^~~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:24:13: warning: 'rotate_cw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_cw_90(void);
+             ^~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:25:13: warning: 'rotate_180' declared 'static' but never defined [-Wunused-function]
+ static void rotate_180(void);
+             ^~~~~~~~~~
+In file included from F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\position.c:4:0:
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:23:13: warning: 'rotate_ccw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_ccw_90(void);
+             ^~~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:24:13: warning: 'rotate_cw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_cw_90(void);
+             ^~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:25:13: warning: 'rotate_180' declared 'static' but never defined [-Wunused-function]
+ static void rotate_180(void);
+             ^~~~~~~~~~
+BYPASS_DIRECTION_0_OK goal=(0.000,10.000) side=2.480 grid
+BYPASS_DIRECTION_1_OK goal=(0.000,-10.000) side=2.480 grid
+BYPASS_DIRECTION_2_OK goal=(10.000,0.000) side=2.482 grid
+BYPASS_DIRECTION_3_OK goal=(-10.000,0.000) side=2.479 grid
+BYPASS_ADAPTER_OK: four axes, preserved target, all holds, all STOPs, short-step fallback, same-burst HOLD priority
+In file included from F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\route_board.c:5:0:
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:23:13: warning: 'rotate_ccw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_ccw_90(void);
+             ^~~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:24:13: warning: 'rotate_cw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_cw_90(void);
+             ^~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:25:13: warning: 'rotate_180' declared 'static' but never defined [-Wunused-function]
+ static void rotate_180(void);
+             ^~~~~~~~~~
+In file included from F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\position.c:4:0:
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:23:13: warning: 'rotate_ccw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_ccw_90(void);
+             ^~~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:24:13: warning: 'rotate_cw_90' declared 'static' but never defined [-Wunused-function]
+ static void rotate_cw_90(void);
+             ^~~~~~~~~~~~
+F:\codex\FPGA����\github_project_20261101\firmware\bisai300\code\angle.h:25:13: warning: 'rotate_180' declared 'static' but never defined [-Wunused-function]
+ static void rotate_180(void);
+             ^~~~~~~~~~
+test_camera_forward_bypass_goes_to_camera_right_and_credits_forward_progress (__main__.WireBypassTests.test_camera_forward_bypass_goes_to_camera_right_and_credits_forward_progress) ... ok
+test_confirmed_obstacle_clears_during_braking_but_detour_still_finishes_original_step (__main__.WireBypassTests.test_confirmed_obstacle_clears_during_braking_but_detour_still_finishes_original_step) ... ok
+test_continuous_route_recovers_from_dropped_packets_and_red_mid_bypass (__main__.WireBypassTests.test_continuous_route_recovers_from_dropped_packets_and_red_mid_bypass) ... ok
+test_countdown_red_pause_does_not_try_bypass_before_move_target_exists (__main__.WireBypassTests.test_countdown_red_pause_does_not_try_bypass_before_move_target_exists) ... ok
+test_forward_obstacle_during_bypass_requires_clear_and_green_without_nested_route (__main__.WireBypassTests.test_forward_obstacle_during_bypass_requires_clear_and_green_without_nested_route) ... ok
+test_hold_at_completed_step_rejects_bypass_then_recovers_normal_next_step (__main__.WireBypassTests.test_hold_at_completed_step_rejects_bypass_then_recovers_normal_next_step) ... ok
+test_operator_stop_in_each_bypass_phase_never_restarts_from_green (__main__.WireBypassTests.test_operator_stop_in_each_bypass_phase_never_restarts_from_green) ... ok
+test_short_remaining_leg_waits_for_clear_then_continues_original_goal (__main__.WireBypassTests.test_short_remaining_leg_waits_for_clear_then_continues_original_goal) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.146s
+
+OK

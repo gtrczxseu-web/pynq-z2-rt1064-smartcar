@@ -1,0 +1,8 @@
+* -text
+*.png binary
+*.pdf binary
+*.docx binary
+*.onnx binary
+*.bit binary
+*.so binary
+*.axf binary

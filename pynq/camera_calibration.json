@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "output_bpp": 32,
+  "shift_pixels": 0,
+  "gains_bgr": [
+    1.935483870967742,
+    1.1764705882352942,
+    0.9836065573770492
+  ],
+  "reference_median_bgr": [
+    93.0,
+    153.0,
+    183.0
+  ],
+  "reference_roi": [
+    110,
+    40,
+    110,
+    95
+  ],
+  "target_white": 180,
+  "reference_saturation_pct": 0.0,
+  "native_brightness": 255,
+  "firmware": [
+    4,
+    5,
+    2
+  ],
+  "note": "Calibrated using the user-supplied white paper under current lighting; redo when lighting changes.",
+  "hardware_sha256": "6dcfff30724181d06af6ee174950884c57b2312913573cb14829ac67f61b46ab",
+  "profile_reuse": {
+    "origin_hardware_sha256": "01a5f2cacc31bc5befc4d61ebfa7ba6956050f6ab68802b79a40776fe18e9dd5",
+    "basis": "Renderer HDL, fonts, renderer binding, colour software and video hardware parameters verified unchanged; sensor IP expanded.",
+    "visual_retest_pending": true
+  }
+}

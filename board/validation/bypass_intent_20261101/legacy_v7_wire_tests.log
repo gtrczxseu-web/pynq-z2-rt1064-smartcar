@@ -1,0 +1,16 @@
+test_continuous_late_red_and_obstacle_require_both_clear_before_finishing (__main__.WireTests.test_continuous_late_red_and_obstacle_require_both_clear_before_finishing) ... ok
+test_continuous_route_ignores_digits_and_finishes_with_red_green_yellow (__main__.WireTests.test_continuous_route_ignores_digits_and_finishes_with_red_green_yellow) ... ok
+test_countdown_hold_does_not_reset_origin_or_start_route_early (__main__.WireTests.test_countdown_hold_does_not_reset_origin_or_start_route_early) ... ok
+test_green_remains_usable_after_overlapping_red_or_yellow_wait (__main__.WireTests.test_green_remains_usable_after_overlapping_red_or_yellow_wait) ... ok
+test_lost_hold_and_release_packet_are_retried_idempotently (__main__.WireTests.test_lost_hold_and_release_packet_are_retried_idempotently) ... ok
+test_obstacle_button_and_green_resume_remaining_translation_without_restart (__main__.WireTests.test_obstacle_button_and_green_resume_remaining_translation_without_restart) ... ok
+test_rotate_v7_angle_and_speed_ack_complete_one_action (__main__.WireTests.test_rotate_v7_angle_and_speed_ack_complete_one_action) ... ok
+test_step_green_one_action_and_buttons_finish_entire_route (__main__.WireTests.test_step_green_one_action_and_buttons_finish_entire_route) ... ok
+test_stop_in_red_wait_cannot_resume_from_any_card (__main__.WireTests.test_stop_in_red_wait_cannot_resume_from_any_card) ... ok
+test_translate_once_then_finished_and_btn0_starts_a_new_run (__main__.WireTests.test_translate_once_then_finished_and_btn0_starts_a_new_run) ... ok
+test_twelve_repeated_routes_accept_late_red_and_finish_all_actions (__main__.WireTests.test_twelve_repeated_routes_accept_late_red_and_finish_all_actions) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.516s
+
+OK

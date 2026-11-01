@@ -1,0 +1,6 @@
+DIGIT DISPLAY UNAVAILABLE: RuntimeError: Missing digit model
+VIDEO_STARTUP_GUARD_OK {"known_dma_channels": 0}
+----------------------------------------------------------------------
+Ran 292 tests in 4.587s
+
+OK

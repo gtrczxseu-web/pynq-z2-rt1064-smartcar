@@ -1,0 +1,32 @@
+{
+  "measured_distance_m": 0.5,
+  "measurement_reference": "User measured camera ground projection to cup base centre",
+  "image_size": [
+    320,
+    240
+  ],
+  "contact_rows": [
+    179,
+    179,
+    179,
+    179,
+    179,
+    179,
+    179,
+    179
+  ],
+  "boundary_pixel_y": 179,
+  "boundary_normalized_y": 0.7489539748953975,
+  "method": "one measured ground contact on a fixed camera and flat floor",
+  "full_metric_depth_calibrated": false,
+  "cup50_sha256": [
+    "b8718712f55880fbc4128413ebe94a8823da63d16f02b1b19035381159a93721",
+    "ab1f025f0cf549919d58114061980a94683e2f3be61214dc9bc3dc007399ef70",
+    "b24ecf37aeece00fd2b6f2b88f39617f8d9e58e3f977a1697f96a2049f33d624",
+    "38c7d34a7a2b531e3102749f23edd5665d111def3c31e4dd02b3483f94560a8c",
+    "6e143e0eba5b436f76268d2750a753182d69bfbb2fb4205515bc8b337de0b66c",
+    "0576037a0029100abe1145b4bcba61943f0caca057ce8d10a2441f68eba87f54",
+    "f8165b52fb3309793faf2fb2e7353da1384aa0265b7ec8792f8656677cd8b642",
+    "80027f95c4c54d095407777a990b9c6b22580387fa376c142a1ddac9b86e0c23"
+  ]
+}

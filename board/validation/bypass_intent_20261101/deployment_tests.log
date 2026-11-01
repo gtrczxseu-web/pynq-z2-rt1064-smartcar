@@ -1,0 +1,17 @@
+.OK
+OK
+OK
+OK
+OK
+BYPASS_INTENT_INSTALLED; NO MOTOR START
+.OK
+OK
+FORCED_TEST_FAILURE
+OK
+.ROLLBACK_FILES_VERIFIED 3
+..
+----------------------------------------------------------------------
+Ran 5 tests in 2.893s
+
+OK
+Read-only check. Use --apply explicitly to restore.

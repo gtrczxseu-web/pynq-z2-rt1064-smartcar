@@ -1,0 +1,137 @@
+[
+  {
+    "index": 0,
+    "result": {
+      "state": "UNKNOWN",
+      "rect": null,
+      "learned_frames": 0,
+      "corridor": [
+        [
+          66,
+          79
+        ],
+        [
+          94,
+          79
+        ],
+        [
+          125,
+          116
+        ],
+        [
+          35,
+          116
+        ]
+      ]
+    },
+    "reference": null
+  },
+  {
+    "index": 1,
+    "result": {
+      "state": "UNKNOWN",
+      "rect": null,
+      "learned_frames": 0,
+      "corridor": [
+        [
+          66,
+          79
+        ],
+        [
+          94,
+          79
+        ],
+        [
+          125,
+          116
+        ],
+        [
+          35,
+          116
+        ]
+      ]
+    },
+    "reference": null
+  },
+  {
+    "index": 2,
+    "result": {
+      "state": "UNKNOWN",
+      "rect": null,
+      "learned_frames": 0,
+      "corridor": [
+        [
+          66,
+          79
+        ],
+        [
+          94,
+          79
+        ],
+        [
+          125,
+          116
+        ],
+        [
+          35,
+          116
+        ]
+      ]
+    },
+    "reference": null
+  },
+  {
+    "index": 3,
+    "result": {
+      "state": "UNKNOWN",
+      "rect": null,
+      "learned_frames": 0,
+      "corridor": [
+        [
+          66,
+          79
+        ],
+        [
+          94,
+          79
+        ],
+        [
+          125,
+          116
+        ],
+        [
+          35,
+          116
+        ]
+      ]
+    },
+    "reference": null
+  },
+  {
+    "index": 4,
+    "result": {
+      "state": "UNKNOWN",
+      "rect": null,
+      "learned_frames": 0,
+      "corridor": [
+        [
+          66,
+          79
+        ],
+        [
+          94,
+          79
+        ],
+        [
+          125,
+          116
+        ],
+        [
+          35,
+          116
+        ]
+      ]
+    },
+    "reference": null
+  }
+]

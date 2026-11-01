@@ -1,0 +1,10 @@
+{
+  "keil_errors": 0,
+  "keil_warnings": 0,
+  "application_tests": 292,
+  "native_wire_tests": 8,
+  "normalized_source_build_sha256": "67803b530dbc05cd5af8109417f8cfc5708a22f6421b583db0afcd73d1ab58eb",
+  "published_original_axf_sha256": "56ad2df2484af36f81cb3d40f31f408bdfcac327df038c08ec43e645f5bf02dd",
+  "reason": "Normalized path-only export rebuilt successfully. Preserve the exact user-flashed final image; debug paths prevent a bit-identical rebuild claim.",
+  "motor_hardware_accessed": false
+}

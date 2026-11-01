@@ -1,0 +1,17 @@
+{
+  "uploaded": true,
+  "manifest_sha256": "e6ce39d683bf13402295bf3298508e889c8dd72d13653267e14333c1b54d3851",
+  "board_application_tests": 292,
+  "offline_application_tests": 292,
+  "native_wire_bypass_tests": 8,
+  "legacy_v7_wire_tests": 11,
+  "deployment_mock_tests": 5,
+  "health_all_passed": true,
+  "confirmed_bypass_intent_survives_clear_unknown": true,
+  "requires_mcu_reflash": false,
+  "remaining_under_1m_rule_unchanged": true,
+  "near50_detector_unchanged": true,
+  "motor_start_requested": false,
+  "real_vehicle_retest_pending": true,
+  "source_backup": "F:\\codex\\FPGA竞赛\\backups\\before_bypass_intent_20261101_163859"
+}

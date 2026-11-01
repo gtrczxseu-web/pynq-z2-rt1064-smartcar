@@ -1,0 +1,9 @@
+F:\anaconda\python.exe F:\codex\FPGA竞赛\github_project_20261101\build\check_package.py
+PACKAGE_OK 49 runtime hashes; paths and Keil references OK
+
+F:\anaconda\python.exe F:\codex\FPGA竞赛\github_project_20261101\pynq\install_service.py
+V7_PACKAGE_OK 49
+Read-only check. No service or hardware changed.
+
+F:\anaconda\python.exe F:\codex\FPGA竞赛\github_project_20261101\skill\check_manifest.py --manifest F:\codex\FPGA竞赛\github_project_20261101\pynq\manifest.json --root F:\codex\FPGA竞赛\github_project_20261101\pynq
+MANIFEST_OK 49

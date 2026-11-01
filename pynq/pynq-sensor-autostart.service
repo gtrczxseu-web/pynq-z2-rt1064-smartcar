@@ -1,0 +1,23 @@
+[Unit]
+Description=PYNQ V7 manual-start two-lap motion and FPGA HUD
+After=local-fs.target systemd-udevd.service jupyter.service
+RequiresMountsFor=/home/xilinx/jupyter_notebooks/hud_motion_v7
+
+[Service]
+Type=exec
+User=root
+WorkingDirectory=/home/xilinx/jupyter_notebooks/hud_motion_v7
+Environment=BOARD=Pynq-Z2
+Environment=XILINX_XRT=/usr
+Environment=PYTHONUNBUFFERED=1
+Environment=PATH=/usr/local/share/pynq-venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/usr/local/share/pynq-venv/bin/python3 -u /home/xilinx/jupyter_notebooks/hud_motion_v7/standalone.py --config /home/xilinx/jupyter_notebooks/hud_motion_v7/autostart.json
+Restart=no
+KillMode=mixed
+TimeoutStopSec=25
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=pynq-sensor-autostart
+
+[Install]
+WantedBy=multi-user.target
