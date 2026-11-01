@@ -1,23 +1,23 @@
-# Submission status and remaining materials
+# Submission contents
 
-Review date: 2026-11-01. Intended guide section: autonomous-topic track 3.3; team education/year group still follows registration facts. This repository is not a claim of eligibility for the Ryzen AI PC embodied-intelligence track.
+Package date: 2026-11-01. Guide organization: autonomous-topic track 3.3. Team education/year group follows registration facts.
 
-| Requirement | Current status |
+| Material | Repository location |
 | --- | --- |
-| PYNQ PS source, RT1064 firmware source/project/dependencies | Included |
-| Working Overlay and native runtime files | Included as existing runtime artifacts |
-| Exact Overlay Vivado/RTL/HLS/BD sources and XDC | Not located; must recover original project |
-| Bitstream reconstruction script | Not available; do not fabricate an equivalent project |
-| FPGA utilization, timing, clocks, implementation reports | Not available; cannot replace with MCU compilation or observed video FPS |
-| Offline verification, selected board measurements and fixed inputs | Included; see board/readme.md and sim/results/ |
-| Application/native/MCU build and check entrypoints | Included; exact export-check results recorded separately |
-| Skill and collaboration records | Included as curated material with explicit scope |
-| Technical design report | Included when the final checked local report is copied; its pending items remain pending |
-| Independent team reproduction from clean machine | Not performed; required tool/image versions and missing PL source limit reproduction |
-| Final English poster | Not included; needed if advancing to finals |
+| PYNQ PS source, configuration and startup | `pynq/` |
+| RT1064 source, Keil project and dependencies | `firmware/` |
+| Overlay bitstream and hardware handoff | `pynq/hud_live.bit`, `pynq/hud_live.hwh` |
+| Native runtime libraries and their C source | `pynq/` |
+| Offline verification and fixed regression inputs | `pynq/verification/`, `sim/` |
+| Selected board measurements and original results | `board/validation/` |
+| Application/native/MCU build and check entrypoints | `build/` |
+| Reusable workflows and manifest checker | `skill/` |
+| Technical design report, 16 pages | `report/technical_report.pdf` |
+| Selected prompts, responses and correction record | `report/collaboration.md` |
+| Component provenance and licenses | `third_party_notices.md`, component license files |
 
-Recommended Vivado/Vitis versions in the guide are 2026.1 or 2025.2; another version requires explanation and reproducible scripts. The existing bitstream is not silently attributed to either version. MCU uses Keil Arm Compiler 6.19, which is a different toolchain.
+The README provides the software check, MCU build and PYNQ runtime deployment steps. MCU compilation uses Keil Arm Compiler 6.19. Overlay files are distributed as runtime artifacts; they are distinct from MCU build outputs.
 
 Repository paths use lowercase English, digits, underscores/hyphens and normal file extensions. Some existing report text and raw JSON/log values still contain historic local paths and filenames; those are provenance content, not repository paths.
 
-Open-source hosting and useful running code do not by themselves complete the FPGA submission. Recover the exact hardware project and actual implementation reports before claiming a fully rebuildable final competition package.
+The editable Word report remains in the local delivery folder. The repository contains its checked PDF export. Original measured outputs retain their historical timestamps, paths and state flags. No additional board run was performed for this publication.

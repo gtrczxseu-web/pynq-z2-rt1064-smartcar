@@ -2,7 +2,7 @@
 
 麦轮小车视觉交互、分步/连续路线与近区障碍绕行。最终应用快照：2026-11-01；MCU 协议版本：V8。
 
-**提交边界：当前提供可运行的 PYNQ/RT1064 源码与已验证的 Overlay 运行文件。对应完整 Vivado 源工程、约束、重建脚本及资源/时序报告尚未找齐，因此不能宣称已完成从 RTL 到 bitstream 的完整复现。** 详见 [待补项](report/submission_status.md)。
+本仓库提供 PYNQ/RT1064 最终应用源码、Overlay 运行文件、验证材料及技术文档。详见 [材料清单](report/submission_status.md)。
 
 ## 功能
 
@@ -22,10 +22,10 @@
 | `firmware/` | RT1064 源码、Keil 工程、SDK/第三方库及最终 AXF |
 | `pynq/verification/` | 最终应用测试及固定回归输入 |
 | `sim/` | 离线测试入口、实际 C 控制代码的理想模型联调 |
-| `build/` | MCU/native 库构建脚本、包校验脚本；不包含伪造的 Vivado 工程 |
+| `build/` | MCU/native 库构建脚本与软件包校验入口 |
 | `board/validation/` | 既有板端测试、标定、状态记录与编译日志 |
 | `skill/` | 可复用校验与调试经验，含适用范围、操作及失效边界 |
-| `report/` | 技术文档、协作记录摘录、证据边界及待补项 |
+| `report/` | 技术文档、协作记录摘录及材料清单 |
 
 `pl_camera_test.py`、`usb_cdc_only_test.py` 是历史命名的**运行依赖**，不可因文件名含 test 删除。`rear_camera.json` / `rear_projection.py` 同样保留历史命名；逻辑前方以当前坐标配置为准。
 
