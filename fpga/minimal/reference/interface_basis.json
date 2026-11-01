@@ -1,0 +1,106 @@
+{
+  "source": "Published hud_live.hwh, previously verified identical to board copy",
+  "sha256": "089fa71a1c615b5fc6d482fdc1baf20fd075be6747b276d36732c233e6e87851",
+  "vivado": "2018.3",
+  "system": {
+    "ARCH": "zynq",
+    "BOARD": "tul.com.tw:pynq-z2:part0:1.0",
+    "DEVICE": "7z020",
+    "NAME": "base",
+    "PACKAGE": "clg400",
+    "SPEEDGRADE": "-1"
+  },
+  "selected": [
+    {
+      "instance": "/axi_uartlite_0",
+      "vlnv": "xilinx.com:ip:axi_uartlite:2.0",
+      "parameters": {
+        "C_FAMILY": "zynq",
+        "C_S_AXI_ACLK_FREQ_HZ": "100000000",
+        "C_S_AXI_ADDR_WIDTH": "4",
+        "C_S_AXI_DATA_WIDTH": "32",
+        "C_BAUDRATE": "115200",
+        "C_DATA_BITS": "8",
+        "C_USE_PARITY": "0",
+        "C_ODD_PARITY": "0",
+        "C_S_AXI_ACLK_FREQ_HZ_d": "100.0",
+        "Component_Name": "base_axi_uartlite_0_0",
+        "PARITY": "No_Parity",
+        "USE_BOARD_FLOW": "false",
+        "UARTLITE_BOARD_INTERFACE": "Custom",
+        "EDK_IPTYPE": "PERIPHERAL",
+        "C_BASEADDR": "0x42C00000",
+        "C_HIGHADDR": "0x42C0FFFF"
+      }
+    },
+    {
+      "instance": "/btns_gpio",
+      "vlnv": "xilinx.com:ip:axi_gpio:2.0",
+      "parameters": {
+        "C_FAMILY": "zynq",
+        "C_S_AXI_ADDR_WIDTH": "9",
+        "C_S_AXI_DATA_WIDTH": "32",
+        "C_GPIO_WIDTH": "4",
+        "C_GPIO2_WIDTH": "32",
+        "C_ALL_INPUTS": "1",
+        "C_ALL_INPUTS_2": "0",
+        "C_ALL_OUTPUTS": "0",
+        "C_ALL_OUTPUTS_2": "0",
+        "C_INTERRUPT_PRESENT": "1",
+        "C_DOUT_DEFAULT": "0x00000000",
+        "C_TRI_DEFAULT": "0xFFFFFFFF",
+        "C_IS_DUAL": "0",
+        "C_DOUT_DEFAULT_2": "0x00000000",
+        "C_TRI_DEFAULT_2": "0xFFFFFFFF",
+        "Component_Name": "base_btns_gpio_0",
+        "USE_BOARD_FLOW": "false",
+        "GPIO_BOARD_INTERFACE": "Custom",
+        "GPIO2_BOARD_INTERFACE": "Custom",
+        "EDK_IPTYPE": "PERIPHERAL",
+        "C_BASEADDR": "0x41210000",
+        "C_HIGHADDR": "0x4121FFFF"
+      }
+    },
+    {
+      "instance": "/rx_level_0",
+      "vlnv": "xilinx.com:ip:axi_gpio:2.0",
+      "parameters": {
+        "C_FAMILY": "zynq",
+        "C_S_AXI_ADDR_WIDTH": "9",
+        "C_S_AXI_DATA_WIDTH": "32",
+        "C_GPIO_WIDTH": "1",
+        "C_GPIO2_WIDTH": "32",
+        "C_ALL_INPUTS": "1",
+        "C_ALL_INPUTS_2": "0",
+        "C_ALL_OUTPUTS": "0",
+        "C_ALL_OUTPUTS_2": "0",
+        "C_INTERRUPT_PRESENT": "0",
+        "C_DOUT_DEFAULT": "0x00000000",
+        "C_TRI_DEFAULT": "0xFFFFFFFF",
+        "C_IS_DUAL": "0",
+        "C_DOUT_DEFAULT_2": "0x00000000",
+        "C_TRI_DEFAULT_2": "0xFFFFFFFF",
+        "Component_Name": "base_rx_level_0_0",
+        "USE_BOARD_FLOW": "false",
+        "GPIO_BOARD_INTERFACE": "Custom",
+        "GPIO2_BOARD_INTERFACE": "Custom",
+        "EDK_IPTYPE": "PERIPHERAL",
+        "C_BASEADDR": "0x41260000",
+        "C_HIGHADDR": "0x4126FFFF"
+      }
+    },
+    {
+      "instance": "/video/hdmi_out/pl_hud_live_0",
+      "vlnv": "local:user:pl_sensor_hud:1.0",
+      "parameters": {
+        "WATCHDOG_CYCLES": "142857143",
+        "Component_Name": "base_pl_hud_live_0_1",
+        "EDK_IPTYPE": "PERIPHERAL",
+        "C_BASEADDR": "0x43C80000",
+        "C_HIGHADDR": "0x43C80FFF"
+      }
+    }
+  ],
+  "new_implementation": true,
+  "not_original_rtl_recovery": true
+}

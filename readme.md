@@ -4,6 +4,8 @@
 
 本仓库提供 PYNQ/RT1064 最终应用源码、Overlay 运行文件、验证材料及技术文档。详见 [材料清单](report/submission_status.md)。
 
+[最小 Vivado 源工程](fpga/minimal/readme.md) 包含 PS7、UART、GPIO 与 SP21 传感器核心，已完成仿真和综合。进入该目录运行 `vivado -mode batch -source build.tcl -tclargs synth`，生成 `generated/smartcar_minimal/smartcar_minimal.xpr`。
+
 ## 功能
 
 - STEP / CONTINUOUS，屏幕参数菜单；距离 2.0–4.0 m，每次 +0.2 m 循环；菜单速度 20%–200%，每次 +20%；固定转角 90°/180°/360°/720°。单独平移、旋转仅用于 STEP。
@@ -20,6 +22,7 @@
 | --- | --- |
 | `pynq/` | PS Python/C 源码、模型、配置、Overlay 运行文件、服务与部署入口 |
 | `firmware/` | RT1064 源码、Keil 工程、SDK/第三方库及最终 AXF |
+| `fpga/minimal/` | 最小 Vivado 源工程、约束、重建脚本、仿真与综合报告 |
 | `pynq/verification/` | 最终应用测试及固定回归输入 |
 | `sim/` | 离线测试入口、实际 C 控制代码的理想模型联调 |
 | `build/` | MCU/native 库构建脚本与软件包校验入口 |

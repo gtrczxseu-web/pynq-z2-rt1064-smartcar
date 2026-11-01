@@ -21,4 +21,6 @@ firmware/**/objects/*
 *.pem
 *.key
 reports/
+!fpga/minimal/reports/
+!fpga/minimal/reports/**
 logs/

@@ -1,0 +1,8 @@
+generated/
+.Xil/
+*.log
+!reports/simulation.log
+*.jou
+*.backup.*
+*.str
+*.pb

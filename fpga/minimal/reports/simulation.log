@@ -1,0 +1,7 @@
+
+MATH_PASS 8 boundary cases
+F:\codex\pynq_vivado_minimal_20261101\sim\tb_math.sv:24: $finish called at 5310000 (1ps)
+
+
+SP21_AXI_PASS vectors=46 register_checks=383 AW/W independent, strobes, backpressure, clear, busy
+F:\codex\pynq_vivado_minimal_20261101\sim\tb_sp21_axi.sv:102: $finish called at 175300000 (1ps)

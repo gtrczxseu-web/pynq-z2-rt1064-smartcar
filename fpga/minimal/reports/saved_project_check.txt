@@ -1,0 +1,1 @@
+SAVED_PROJECT_OK part=xc7z020clg400-1 synth=100% wns_ns=0.461 whs_ns=0.045

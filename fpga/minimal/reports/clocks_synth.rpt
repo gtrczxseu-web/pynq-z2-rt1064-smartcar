@@ -1,0 +1,22 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Nov  1 18:56:22 2026
+| Host         : LAPTOP-LIAVRTE5 running 64-bit major release  (build 9200)
+| Command      : report_clock_interaction -file F:/codex/pynq_vivado_minimal_20261101/reports/clocks_synth.rpt
+| Design       : smartcar_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.11 2014-09-11
+---------------------------------------------------------------------------------------------------------------
+
+Clock Interaction Report
+
+Clock Interaction Table
+-----------------------
+
+                            WNS                            TNS Failing  TNS Total    WNS Path         Clock-Pair           Inter-Clock         
+From Clock    To Clock      Clock Edges  WNS(ns)  TNS(ns)    Endpoints    Endpoints  Requirement(ns)  Classification       Constraints         
+------------  ------------  -----------  -------  -------  -----------  -----------  ---------------  -------------------  ------------------  
+clk_fpga_0    clk_fpga_0    rise - rise     0.46     0.00            0         9377            10.00  Clean                Partial False Path  
+
+
